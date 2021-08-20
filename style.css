@@ -1,0 +1,182 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header{
+    background-color:cornflowerblue;
+    text-align: center;
+    color: white;
+}
+
+.title{
+    font-size: 26px;
+    
+}
+
+section{
+    padding: 20px;
+    background-image:url(imagens/previdencia-privada-fazendo-calculos.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+
+
+
+.formContainer{
+    max-width: 230px;
+    background-color:#ffffff6b;
+    padding: 15px;
+    float: right;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    }
+
+ p{
+    font-weight: bold;
+    
+ }   
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow:0px 1px;
+    
+}
+
+input[type="submit"]{
+    background-color:cornflowerblue;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    }
+
+input[type="submit"]:hover{
+        background-color: rgb(2, 15, 39);
+        
+    }
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(imagens/pngtree-down-direction-arrow-icon-16.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center; 
+   }
+  
+   main{
+       padding: 40px;
+       text-align: center;
+       background-color: #202121;
+
+
+   }
+
+   .palestrante{
+        width: 160px;
+        
+
+   }
+
+   .text{
+       display: inline-block;
+       text-align: justify;
+       color: white;     
+       max-width: 40%;
+       margin-left: 40px;
+   }
+
+.text h3, .text p{
+    margin-bottom: 20px;
+}
+
+.text h3{
+    font-size: 24px;
+
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1101016b;
+    padding: 20px;
+    text-align:center;   
+
+    
+}
+a{  
+    width: 50px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    list-style: none;
+    
+    }
+    .master a:hover{
+        background-color: black;
+    }
+                                                                                
+
+.rodape{
+    color: white;
+    padding: 20px;
+    margin-left: 100px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        .formContainer{          
+        float: none;
+        margin: auto;
+        }
+
+
+        .text{
+            display: block;
+            text-align: center;
+            color: white;     
+            max-width: 100%;
+            
+            
+        }
+
+        .text h3{
+            margin-right: 40px;
+        
+        }
+        .text p{
+            margin-right: 40px;
+    }
+
+    .master{  
+   margin-right: 80px;
+    
+    }
+    .rodape{
+        margin: auto;
+        
+        }
+
+    }
